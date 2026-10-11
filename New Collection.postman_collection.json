@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "20db19c0-c8e0-4e8e-9140-524d908e13e5",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "58794763",
+		"_collection_link": "https://adeelpeerzai1122-9777275.postman.co/workspace/Adeel-Ahmed's-Workspace~a833cef2-44c1-4c9a-88a6-9de2d9630b4f/collection/58794763-20db19c0-c8e0-4e8e-9140-524d908e13e5?action=share&source=collection_link&creator=58794763"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"AI in Healthcare\",\n  \"description\": \"Research on using machine learning for early disease detection.\",\n  \"research_area\": \"Artificial Intelligence\",\n  \"faculty_name\": \"Dr. Ahmed Khan\",\n  \"department\": \"Computer Science\",\n  \"required_skills\": \"Python, Machine Learning\",\n  \"positions\": 2,\n  \"deadline\": \"2026-12-31\",\n  \"status\": \"Open\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/opportunities",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"opportunities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/opportunities/10",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"opportunities",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/opportunities/5",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"opportunities",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"AI in Healthcare\",\n  \"description\": \"Research on using machine learning and deep learning for early disease detection.\",\n  \"research_area\": \"Artificial Intelligence\",\n  \"faculty_name\": \"Dr. Ahmed Khan\",\n  \"department\": \"AI\",\n  \"required_skills\": \"Python, Machine Learning\",\n  \"positions\": 3,\n  \"deadline\": \"2026-12-31\",\n  \"status\": \"Open\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/opportunities/5",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"opportunities",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
